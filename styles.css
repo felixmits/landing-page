@@ -22,11 +22,19 @@ header {
   background-color: #1F2937;
   display: flex;
   justify-content: center;
-  gap: 1000px;
-  height: 4vh;
   align-items: center;
+  justify-content: space-between;
+  height: 4vh;
 }
 
+.header-left {
+  padding-left: 400px;
+}
+
+
+.header-right {
+  padding-right: 400px;
+}
 ul {
   list-style-type: none;
   display: flex;
@@ -41,9 +49,22 @@ a {
 
 .hero {
   background-color: #1F2937;
-  height: 26vh;
+  height: 30vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.text {
+  max-width: 400px;
+  padding-left: 400px;
+}
+
+.main-title {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
 
 footer {
   margin-top: auto;
@@ -54,4 +75,3 @@ footer {
   align-items: center;
   color: #E5E7EB
 }
-
