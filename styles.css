@@ -72,14 +72,14 @@ a {
   max-width: 450px;
 }
 
-button {
+.button-one {
   background-color: #3882F6;
-  color: white;
+  color: #F9FAF8;
   padding: 8px;
   width: 120px;
   border-radius: 10px;
   margin-top: 5px;
-  border-color: #3882F6;
+  border: 2px solid #3882F6;
 }
 
 
@@ -104,7 +104,6 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-shrink: auto;
   flex-direction: column;
 }
 
@@ -123,6 +122,52 @@ button {
   font-weight: 700;
 }
 
+.sign-up {
+  height: 20vh; /* I know that is not needed*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: #3882F6;
+  width: 1000px;
+  height: 10vh;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.box-left {
+  margin-left: 100px;
+}
+
+.box-right {
+  margin-right: 100px;
+}
+
+.action {
+  font-size: 22px;
+  color: #F9FAF8
+}
+
+.product {
+  color: #E5E7EB;
+  font-weight: 300;
+}
+
+.button-two {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  padding: 8px;
+  width: 120px;
+  border-radius: 10px;
+  margin-top: 5px;
+  border: 2px solid #F9FAF8;
+
+}
 footer {
   margin-top: auto;
   height: 5vh;
